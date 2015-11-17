@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KSHATRIYA</Machine>
+    <WindowsUser>Aaron</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>09bad5ec-231f-4d46-ab84-73d89ffa13fa</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>94A5759AE0DD873D3AB6864FBE75CE69E3899F70B8FF646355002124AF4EF841</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>09bad5ec-231f-4d46-ab84-73d89ffa13fa_1.0.0.0_neutral__jq6xpzdywz9kj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>09bad5ec-231f-4d46-ab84-73d89ffa13fa_jq6xpzdywz9kj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>09bad5ec-231f-4d46-ab84-73d89ffa13fa</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Aaron</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-17T17:31:02.186</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\bin\Debug\WebArchiveTV.exe">
+      <PackagePath>WebArchiveTV.exe</PackagePath>
+      <Modified>2015-08-17T17:31:01.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\ac.png">
+      <PackagePath>Assets\ac.png</PackagePath>
+      <Modified>2015-05-11T18:18:36.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\ct.png">
+      <PackagePath>Assets\ct.png</PackagePath>
+      <Modified>2015-05-11T22:39:48.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\cv.png">
+      <PackagePath>Assets\cv.png</PackagePath>
+      <Modified>2015-05-11T22:39:48.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\mov.png">
+      <PackagePath>Assets\mov.png</PackagePath>
+      <Modified>2015-05-11T22:39:48.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\nf.png">
+      <PackagePath>Assets\nf.png</PackagePath>
+      <Modified>2015-05-12T09:22:41.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\be.jfif">
+      <PackagePath>Assets\be.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\bp_1.jfif">
+      <PackagePath>Assets\bp_1.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\C64.jfif">
+      <PackagePath>Assets\C64.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\chap.jfif">
+      <PackagePath>Assets\chap.jfif</PackagePath>
+      <Modified>2015-05-11T22:54:07.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\dr_1.jfif">
+      <PackagePath>Assets\dr_1.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\el_1.jfif">
+      <PackagePath>Assets\el_1.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\hohh.jfif">
+      <PackagePath>Assets\hohh.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\kotor.jfif">
+      <PackagePath>Assets\kotor.jfif</PackagePath>
+      <Modified>2015-05-12T09:22:41.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\mr_1.jfif">
+      <PackagePath>Assets\mr_1.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\notld.jfif">
+      <PackagePath>Assets\notld.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\pen.jfif">
+      <PackagePath>Assets\pen.jfif</PackagePath>
+      <Modified>2015-05-12T09:22:45.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\pfos.jfif">
+      <PackagePath>Assets\pfos.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\popeye_1.jfif">
+      <PackagePath>Assets\popeye_1.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\tj_1.jfif">
+      <PackagePath>Assets\tj_1.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\tv_1.jfif">
+      <PackagePath>Assets\tv_1.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\ux.jfif">
+      <PackagePath>Assets\ux.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\Assets\ww_1.jfif">
+      <PackagePath>Assets\ww_1.jfif</PackagePath>
+      <Modified>2015-05-11T18:18:36.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2015-05-12T10:07:37.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\bin\Debug\WebArchiveTV.xr.xml">
+      <PackagePath>WebArchiveTV.xr.xml</PackagePath>
+      <Modified>2015-08-17T17:31:01.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-12T11:01:54.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2015-05-12T11:01:54.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2015-05-12T11:01:54.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2015-05-12T11:01:54.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aaron\Documents\Visual Studio 2015\Projects\WebArchiveTV\WebArchiveTV\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-08-17T17:31:01.805</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,127 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="WebArchiveTV.ItemPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WebArchiveTV"
+    xmlns:data="using:WebArchiveTV.Data"
+    xmlns:common="using:WebArchiveTV.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+        DataContext="{Binding Item}"
+        d:DataContext="{Binding Groups[0].Items[0], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--
+            TODO: Content should be placed within the following grid 
+                  to show details for the current item
+        -->
+        <Grid x:Name="contentRegion" Margin="0,130,0,10" Grid.RowSpan="2">
+
+            <MediaElement Name="MyMediaElement"
+                          Margin="283,0,283,228"
+                          Width="800"
+                          Height="400"
+                          AutoPlay="True"
+                          Grid.Row="0" RenderTransformOrigin="0.507,0.5"
+                          />
+
+            <TextBlock Name = "MyTitleBlock"
+                      HorizontalAlignment="Left"
+                      Margin="12,424,0,0"
+                      Text="{Binding Title}"
+                      FontSize="26"
+                      TextWrapping="Wrap"
+                      VerticalAlignment="Top" Height="34"
+                      />
+
+            <TextBlock Name = "MyPublishedBlock"
+                      HorizontalAlignment="Left"
+                      Margin="595,424,0,0"
+                      Text="{Binding Published}"
+                      TextWrapping="Wrap"
+                      VerticalAlignment="Top"
+                      FontSize="26"
+                      />
+
+            <TextBlock Name = "MyStarsBlock"
+                      HorizontalAlignment="Left"
+                      Margin="595,609,0,0"
+                      Text="{Binding Stars}"
+                      TextWrapping="Wrap"
+                      VerticalAlignment="Top"
+                      FontSize="16" Width="181"
+                      />
+
+            <TextBlock Name = "MyUsageBlock"
+                      HorizontalAlignment="Left"
+                      Margin="1207,609,0,-1"
+                      Text="{Binding Usage}"
+                      TextWrapping="Wrap"
+                      VerticalAlignment="Top"
+                      FontSize="16"
+                      />
+
+            <TextBlock Name = "MyContentBlock"
+                      HorizontalAlignment="Left"
+                      Margin="12,463,0,0"
+                      Text="{Binding Description}"
+                      FontSize="20"
+                      TextWrapping="Wrap"
+                      VerticalAlignment="Top" Height="141"
+                      />
+
+            <TextBlock Name = "MyRuntimeBlock"
+                      HorizontalAlignment="Left"
+                      Margin="1127,424,0,0"
+                      Text="{Binding Runtime}"
+                      TextWrapping="Wrap"
+                      VerticalAlignment="Top"
+                      FontSize="26" Width="229"
+                      />
+
+            <TextBlock Name = "MyCopyrightBlock"
+                      HorizontalAlignment="Left"
+                      Margin="12,609,0,-1"
+                      Text="{Binding Content}"
+                      TextWrapping="Wrap"
+                      VerticalAlignment="Top"
+                      FontSize="16"
+                      />
+
+        </Grid>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{Binding Title}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+    </Grid>
+</Page>
