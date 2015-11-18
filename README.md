@@ -4,10 +4,10 @@ My university assignment to create a smart tv app for the Web Archive Video arch
 ## Web Archive: Windows 8.1 Modern App Project
 
 My university assignment to create a smart tv app for the Web Archive Video archives, it is a Windows 8.1 Application.
-It is a Windows 8.1 Modern App to demonstarte how it would look and work and doesn't work across the site, currently only one 40 video entries
+It is a Windows 8.1 Modern App to demonstarte how it would look and work and doesn't work across the site, currently only one 40 video entries.
 
 | Features  |
 | ------------- | 
 | Browse a preset list of times  |
-| Follows W 8.1 Aesthetics with Panormama Hub Navigation  | 
+| Follows Modern UI Aesthetics with Panoramama Hub Navigation  | 
 | View videos  | 
