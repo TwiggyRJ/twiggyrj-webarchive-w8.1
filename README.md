@@ -9,5 +9,5 @@ It is a Windows 8.1 Modern App to demonstarte how it would look and work and doe
 | Features  |
 | ------------- | 
 | Browse a preset list of times  |
-| Follows Modern UI Aesthetics with Panoramama Hub Navigation  | 
+| Follows Modern UI Aesthetics with Panorama Hub Navigation  | 
 | View videos  | 
